@@ -694,7 +694,7 @@
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <pathCell key="cell" controlSize="small" selectable="YES" editable="YES" alignment="left" id="hSq-Cw-QmP">
                             <font key="font" metaFont="message" size="11"/>
-                            <url key="url" string="file://localhost/Applications/"/>
+                            <url key="url" string="file:///Applications/"/>
                         </pathCell>
                     </pathControl>
                     <pathControl verticalHuggingPriority="750" fixedFrame="YES" allowsExpansionToolTips="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YjI-o1-YTP">
