@@ -11,7 +11,7 @@
             </connections>
         </customObject>
         <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
-        <customObject id="-3" userLabel="Application"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
         <customObject id="Voe-Tx-rLC" customClass="AppDelegate">
             <connections>
                 <outlet property="window" destination="QvC-M9-y7g" id="gIp-Ho-8D9"/>
@@ -689,27 +689,27 @@
                 <rect key="frame" x="0.0" y="0.0" width="480" height="360"/>
                 <autoresizingMask key="autoresizingMask"/>
                 <subviews>
-                    <pathControl verticalHuggingPriority="750" fixedFrame="YES" allowsExpansionToolTips="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JKY-fM-Aut">
+                    <pathControl toolTip="Test1" verticalHuggingPriority="750" fixedFrame="YES" allowsExpansionToolTips="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JKY-fM-Aut">
                         <rect key="frame" x="20" y="320" width="204" height="20"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <pathCell key="cell" controlSize="small" selectable="YES" editable="YES" alignment="left" id="hSq-Cw-QmP">
-                            <font key="font" metaFont="message" size="11"/>
+                            <font key="font" metaFont="toolTip"/>
                             <url key="url" string="file:///Applications/"/>
                         </pathCell>
                     </pathControl>
-                    <pathControl verticalHuggingPriority="750" fixedFrame="YES" allowsExpansionToolTips="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YjI-o1-YTP">
+                    <pathControl toolTip="Test2" verticalHuggingPriority="750" fixedFrame="YES" allowsExpansionToolTips="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YjI-o1-YTP">
                         <rect key="frame" x="20" y="258" width="204" height="22"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <pathCell key="cell" controlSize="small" selectable="YES" editable="YES" alignment="left" pathStyle="popUp" id="HV7-lR-rdw">
-                            <font key="font" metaFont="message" size="11"/>
-                            <url key="url" string="file://localhost/Applications/"/>
+                            <font key="font" metaFont="toolTip"/>
+                            <url key="url" string="file:///Applications/"/>
                         </pathCell>
                     </pathControl>
-                    <pathControl verticalHuggingPriority="750" fixedFrame="YES" allowsExpansionToolTips="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OPs-3P-Fyg">
+                    <pathControl toolTip="Test3" verticalHuggingPriority="750" fixedFrame="YES" allowsExpansionToolTips="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OPs-3P-Fyg">
                         <rect key="frame" x="20" y="203" width="204" height="20"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <pathCell key="cell" controlSize="small" selectable="YES" editable="YES" alignment="left" pathStyle="navigationBar" id="fFV-At-uGW">
-                            <font key="font" metaFont="message" size="11"/>
+                            <font key="font" metaFont="toolTip"/>
                             <url key="url" string="file://localhost/Applications/"/>
                         </pathCell>
                     </pathControl>
