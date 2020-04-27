@@ -8,8 +8,11 @@
 
 #import <Cocoa/Cocoa.h>
 
-@interface AppDelegate : NSObject <NSApplicationDelegate>
+@interface AppDelegate : NSObject <NSApplicationDelegate, NSPathControlDelegate>
 
+@property IBOutlet NSPathControl *control1;
+@property IBOutlet NSPathControl *control2;
+@property IBOutlet NSPathControl *control3;
 
 @end
 
