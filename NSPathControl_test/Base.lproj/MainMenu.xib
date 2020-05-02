@@ -696,24 +696,24 @@
                         <rect key="frame" x="20" y="320" width="204" height="20"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <pathCell key="cell" controlSize="small" selectable="YES" editable="YES" alignment="left" id="hSq-Cw-QmP">
-                            <font key="font" metaFont="controlContent" size="11"/>
-                            <url key="url" string="file:///Applications/"/>
+                            <font key="font" metaFont="label" size="11"/>
+                            <url key="url" string="file:///usr/"/>
                         </pathCell>
                     </pathControl>
                     <pathControl toolTip="Test2" verticalHuggingPriority="750" fixedFrame="YES" allowsExpansionToolTips="YES" translatesAutoresizingMaskIntoConstraints="NO" id="YjI-o1-YTP">
                         <rect key="frame" x="20" y="258" width="204" height="22"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <pathCell key="cell" controlSize="small" selectable="YES" editable="YES" alignment="left" pathStyle="popUp" id="HV7-lR-rdw">
-                            <font key="font" metaFont="controlContent" size="11"/>
-                            <url key="url" string="file:///Applications/"/>
+                            <font key="font" metaFont="label" size="11"/>
+                            <url key="url" string="file:///usr/"/>
                         </pathCell>
                     </pathControl>
                     <pathControl toolTip="Test3" verticalHuggingPriority="750" fixedFrame="YES" allowsExpansionToolTips="YES" translatesAutoresizingMaskIntoConstraints="NO" id="OPs-3P-Fyg">
                         <rect key="frame" x="20" y="203" width="204" height="20"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
                         <pathCell key="cell" controlSize="small" selectable="YES" editable="YES" alignment="left" pathStyle="navigationBar" id="fFV-At-uGW">
-                            <font key="font" metaFont="controlContent" size="11"/>
-                            <url key="url" string="file://localhost/Applications/"/>
+                            <font key="font" metaFont="label" size="11"/>
+                            <url key="url" string="file:///usr/"/>
                         </pathCell>
                     </pathControl>
                 </subviews>

@@ -17,6 +17,16 @@
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification {
     // Insert code here to initialize your application
+    NSData *d = [NSKeyedArchiver archivedDataWithRootObject:self.control1
+                                      requiringSecureCoding:NO error:  NULL];
+    [d writeToFile:@"control1.data" atomically:YES];
+    d = [NSKeyedArchiver archivedDataWithRootObject:self.control2
+                              requiringSecureCoding:NO error:  NULL];
+    [d writeToFile:@"control2.data" atomically:YES];
+    d = [NSKeyedArchiver archivedDataWithRootObject:self.control3
+                              requiringSecureCoding:NO error:  NULL];
+    [d writeToFile:@"control3.data" atomically:YES];
+    
 }
 
 
