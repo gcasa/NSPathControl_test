@@ -27,6 +27,8 @@
                               requiringSecureCoding:NO error:  NULL];
     [d writeToFile:@"control3.data" atomically:YES];
     
+    NSURL *testURL = [NSURL URLWithString:@"/"];
+    NSLog(@"URL = %@", testURL);
 }
 
 
