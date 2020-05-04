@@ -36,5 +36,8 @@
     // Insert code here to tear down your application
 }
 
-
+- (IBAction) testAction: (id)sender
+{
+    NSLog(@"Hello: %@", sender);
+}
 @end
