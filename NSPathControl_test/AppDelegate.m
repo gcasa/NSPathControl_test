@@ -39,5 +39,8 @@
 - (IBAction) testAction: (id)sender
 {
     NSLog(@"Hello: %@", sender);
+
+    NSPathComponentCell *c = [self.control2 clickedPathComponentCell];
+    NSLog(@"clickedCell on dropdown %@", c);
 }
 @end
